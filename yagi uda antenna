@@ -1,0 +1,36 @@
+a)	InsertHFSSDesign
+b)	SelectSolutionType>DrivenModal
+c)	ChooseModeler>Units> mm
+
+d)	DrawaCylinder(nameasReflector)
+i.	Draw aCylinderwithdimensionsasfollows
+ii.	Position: -348.4/2 ,0 ,0
+iii.	Axis:X,Radius:3.175,Height: 348.4
+iv.	Assignto PEC
+
+e)	DrawaCylinder(name asradiator)
+i.	Draw a cylinder with dimensionsii.	Position: -328.3/2 ,103.9,0
+iii.	Axis:X, Radius: 3.175,Height: 328.3
+iv.	Assignto PEC
+
+f)	Drawasmallcylinderforcreatinga gap(gap)
+i.	Draw acylinder withdimensionsas followsandnameit asgap
+ii.	Position: -4/2 ,103.9 ,0
+iii.	Radius: 3.175
+iv.	Height:4
+v.	Axis: X
+vi.	AssignasVacuum
+
+g)	Tocreateaspace forgivingexcitation
+i.	Selectthetwocylinders created(radiatorandgap),usesubtracttoolandsubtractthegap from dipole
+ii.	Checktheclonetoolobjects
+
+h)	CreatearectangleforgivingLumpedport excitation(Referto Dipoleantennadesign)
+i)	DrawaCylinder(name asdirector1)
+i.	Draw a cylinder with dimensionsii.	Position: -317.3/2 ,149.6,0
+iii.	Axis:X, Radius: 3.175,Height: 317.3
+iv.	Assignto PEC
+
+j)	DrawaCylinder(name asdirector2)
+i.	Draw a cylinder with dimensionsii.	Position: -311.76/2 ,234.1 ,0
+iii.	Axis:X, Radius: 3.175,Height: 311.76
